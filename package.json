@@ -1,0 +1,16 @@
+{
+  "name": "testes_e2e_api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "NODE_OPTIONS='--experimental-vm-modules --no-warnings' jest --watchAll"
+  },
+  "author": "Luis Machado",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "27",
+    "nodemon": "^2.0.15",
+    "supertest": "^6.2.2"
+  }
+}
